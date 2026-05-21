@@ -1,0 +1,88 @@
+name: Build 政治亂鬥
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+  workflow_dispatch:
+
+env:
+  UNITY_PROJECT_PATH: .
+  BUILD_ARTIFACT_PATH: Builds
+
+jobs:
+  build:
+    name: Build for ${{ matrix.targetPlatform }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        targetPlatform:
+          - Android
+          - StandaloneWindows64
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Cache Library
+        uses: actions/cache@v4
+        with:
+          path: Library
+          key: Library-${{ matrix.targetPlatform }}-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          restore-keys: |
+            Library-${{ matrix.targetPlatform }}-
+            Library-
+
+      - name: Activate Unity license
+        uses: game-ci/unity-license-activate@v1
+        with:
+          unityVersion: 6000.4.7f1
+          activationRequest: ${{ secrets.UNITY_LICENSE }}
+
+      - name: Build project
+        uses: game-ci/unity-builder@v4
+        with:
+          projectPath: ${{ env.UNITY_PROJECT_PATH }}
+          unityVersion: 6000.4.7f1
+          targetPlatform: ${{ matrix.targetPlatform }}
+          buildName: PoliticalBrawl
+          version: ${{ github.run_number }}
+          androidAppBundle: false
+          androidKeystoreName: ${{ secrets.ANDROID_KEYSTORE_NAME }}
+          androidKeystoreBase64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          androidKeystorePass: ${{ secrets.ANDROID_KEYSTORE_PASS }}
+          androidKeyaliasName: ${{ secrets.ANDROID_KEYALIAS_NAME }}
+          androidKeyaliasPass: ${{ secrets.ANDROID_KEYALIAS_PASS }}
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: PoliticalBrawl-${{ matrix.targetPlatform }}-${{ github.run_number }}
+          path: ${{ env.BUILD_ARTIFACT_PATH }}
+
+  release:
+    name: Create Release
+    needs: build
+    if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download all builds
+        uses: actions/download-artifact@v4
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ github.run_number }}
+          name: "Build v${{ github.run_number }}"
+          draft: false
+          prerelease: false
+          files: |
+            PoliticalBrawl-StandaloneWindows64-*/*
+            PoliticalBrawl-Android-*/*
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
