@@ -1,0 +1,357 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.7f1 (f3c3c4248748) revision 15975364'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user" at "2026-05-21T07:31:05.7118397Z"
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'zh' Physical Memory: 16247 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-21T07:31:05Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.7f1\Editor\Unity.exe
+-quit
+-batchmode
+-projectPath
+C:\Users\user\Documents\PoliticalBrawl
+-executeMethod
+SceneSetup.SetupAllScenes
+-logFile
+C:\Users\user\Documents\PoliticalBrawl\setup_log.txt
+Successfully changed project path to: C:\Users\user\Documents\PoliticalBrawl
+C:/Users/user/Documents/PoliticalBrawl
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [12824]  Target information:
+
+Player connection [12824]  * "[IP] 10.1.12.115 [Port] 55504 [Flags] 2 [Guid] 1804258860 [EditorId] 1804258860 [Version] 1048832 [Id] WindowsEditor(7,C15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12824] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12824] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-3616" after 0.2 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-user"
+[Licensing::IpcConnector] LicenseClient-user channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-user-6000.4.7 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 13384)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user-6000.4.7" at "2026-05-21T07:31:07.1030777Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 13384, path: "C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              7dad93c9852c47f0a805f93bcd981371
+  Correlation Id:          bd60f604ed7b7596dc972bca5098be57
+  External correlation Id: 4473597490097860362
+  Machine Id:              R1gfZM33fEFaUCIuHDlZs3ZTix8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-user-6000.4.7" (connect: 0.37s, validation: 0.15s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user-6000.4.7-notifications" at "2026-05-21T07:31:07.2587867Z"
+[Licensing::Module] Connected to LicensingClient (PId: 13384, launch time: 0.00, total connection time: 0.53s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
+  Product: Unity Personal Version
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 1.59s
+[Licensing::Module] Licensing is initialized (took 1.25s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.4.7f1 (f3c3c4248748)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Documents/PoliticalBrawl/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro P620 (ID=0x1cb6)
+    Vendor:   NVIDIA
+    VRAM:     1977 MB
+    Driver:   27.21.14.6140
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+CodeReloadManager initialized
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002009 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.400 seconds
+Domain Reload Profiling: 875ms
+	BeginReloadAssembly (159ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (132ms)
+		AnalyzeDomain (196ms)
+			TypeCache.Refresh (194ms)
+				TypeCache.ScanAssembly (181ms)
+	FinalizeReload (401ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 15 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ide.vscode@1.2.5 (location: C:\Users\user\Documents\PoliticalBrawl\Library\PackageCache\com.unity.ide.vscode@82e68656b7bd)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\user\Documents\PoliticalBrawl\Library\PackageCache\com.unity.2d.sprite@929df5adbb1f)
+    com.unity.2d.tilemap@1.0.0 (location: C:\Users\user\Documents\PoliticalBrawl\Library\PackageCache\com.unity.2d.tilemap@191c90975efd)
+    com.unity.ugui@2.0.0 (location: C:\Users\user\Documents\PoliticalBrawl\Library\PackageCache\com.unity.ugui@4dc88464a83d)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\user\Documents\PoliticalBrawl\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\user\Documents\PoliticalBrawl\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\user\Documents\PoliticalBrawl\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\user\Documents\PoliticalBrawl\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\user\Documents\PoliticalBrawl\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\user\Documents\PoliticalBrawl\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\user\Documents\PoliticalBrawl\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\user\Documents\PoliticalBrawl\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\user\Documents\PoliticalBrawl\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\user\Documents\PoliticalBrawl\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\user\Documents\PoliticalBrawl\Library\PackageCache\com.unity.modules.physics)
+[Package Manager] com.unity.ide.vscode is deprecated: Visual Studio Code package is not supported anymore. You can continue to use it, but we won't provide any update anymore.
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.4.7f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/user/Documents/PoliticalBrawl
+DisplayProgressbar: Compiling Scripts
+Starting: C:\Program Files\Unity\Hub\Editor\6000.4.7f1\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.4.7f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Users/user/Documents/PoliticalBrawl
+ExitCode: 4 Duration: 0s85ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+*** Tundra requires additional run (0.05 seconds), 0 items updated, 232 evaluated
+ExitCode: 0 Duration: 0s278ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.4.7f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/user/Documents/PoliticalBrawl
+ExitCode: 0 Duration: 0s352ms
+Finished compiling graph: 243 nodes, 2163 flattened edges (2027 ToBuild, 22 ToUse), maximum node priority 123
+[184/240    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.UnityAdditionalFile.txt
+[185/240    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm.rsp
+[186/240    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp
+[216/240    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp2
+[236/240    0s] MovedFromExtractor-Combine Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll.mvfrm
+[237/240    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[238/240    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[239/240    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (0.33 seconds), 8 items updated, 240 evaluated
+Total cache size 3200856
+AssetDatabase: script compilation time: 1.075155s
+Total cache size after purge 3200856, took 00:00:00.0131988
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Start importing Assets/Editor using Guid(38e36e27bc16889458fde44cb78ef4a8) (DefaultImporter) -> (Import Result ID: '9f8e60b2e2ffa2f25f2cc8281d2a5124') in 0.0225604 seconds [static dependencies only]. Details - ImportResultOutputID=427758f954028c9079557ce0db63c382 DependenciesID=255fa40d6cd944a02f205ce61e0b5484 StaticDependenciesID=157c069d5212b245d86372db2f0b9093 
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.459 seconds
+Domain Reload Profiling: 834ms
+	BeginReloadAssembly (192ms)
+		DisableScriptedObjects (21ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (40ms)
+		LoadAssemblies (105ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (11ms)
+			BuildScriptInfoCaches (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (461ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+(Values over 0.050ms)
+Asset Pipeline Refresh (id=4fc5fee7af658a6419b86c18f36d6cb6): Total: 2.151 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=2 ms, native=608 ms
+		Asset DB Callback time: managed=62 ms, native=11 ms
+		Scripting: domain reloads=1, domain reload time=376 ms, compile time=1077 ms, other=10 ms
+		Project Asset Count: scripts=183, non-scripts=230
+		Asset File Changes: new=2, changed=2, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 8.867ms
+	ApplyChangesToAssetFolders: 0.418ms
+	Scan: 41.910ms
+	OnSourceAssetsModified: 0.733ms
+	CategorizeScriptCompilationAssets: 1.629ms
+	ProcessAssetsWithTransientArtifactChanges: 9.732ms
+	CategorizeAssets: 3.518ms
+	CompileScripts: 1076.776ms
+	ImportOutOfDateAssets: 488.596ms (461.513ms without children)
+		ImportManagerImport: 26.710ms (3.877ms without children)
+		UnloadImportedAssets: 0.171ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.058ms
+		OnDemandSchedulerStart: 0.142ms
+	PostProcessAllAssets: 65.335ms
+		VCAutoAddAssetPostprocess 2.962ms
+		VersionControlSettings.HiddenFilePostprocess 0.069ms
+		MonoPostProcessAllAssets: 61.895ms
+			AssetPostprocessor.OnPostprocessAllAssets 17.636ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 11.680ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 7.311ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 6.067ms
+			AssetChangedListener.OnPostprocessAllAssets 1.540ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.223ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.152ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.678ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.495ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.456ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.411ms
+			SyncVS.PostprocessSyncProject 0.387ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.384ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.286ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.220ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.219ms
+			AssetEvents.OnPostprocessAllAssets 0.211ms
+			AssetProcessor.OnPostprocessAllAssets 0.202ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.155ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.133ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.123ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.082ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.072ms
+	PostAssetChangesProfiler: 0.767ms
+	UnloadStreamsBegin: 1.753ms
+	GenerateScriptTypeHashes: 0.959ms
+	GenerateScriptTypeSerializationHashes: 2.117ms
+	Untracked: 446.791ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Scanning for USB devices : 24.449ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-PoliticalBrawl
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 573 unused Assets / (0.6 MB). Loaded Objects now: 1220.
+Memory consumption went from 98.3 MB to 97.6 MB.
+Total: 5.329800 ms (FindLiveObjects: 0.097500 ms CreateObjectMapping: 0.033100 ms MarkObjects: 4.802400 ms  DeleteObjects: 0.392100 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 1220.
+Memory consumption went from 97.2 MB to 97.2 MB.
+Total: 5.664100 ms (FindLiveObjects: 0.043100 ms CreateObjectMapping: 0.013100 ms MarkObjects: 5.602900 ms  DeleteObjects: 0.004300 ms)
+
+Start importing Assets/Scenes/MainMenu.unity using Guid(c6dba510a74722c4fbf1f61deb85a121) (DefaultImporter) -> (Import Result ID: 'c9a9c4f6aae7f9ce433abd67c8f17cb0') in 0.000917 seconds [static dependencies only]. Details - ImportResultOutputID=bf20dfe1c6a8f8dcbd0a6505c55d2b47 DependenciesID=9bd114ddd50af84ce2097fc8bc7e9429 StaticDependenciesID=b62f3d4f6b20ab51114b31323a6555fd 
+Asset Pipeline Refresh (id=1208042b811313b4797cbb4f1f8a7db6): Total: 0.016 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Scenes/MainMenu.unity using Guid(c6dba510a74722c4fbf1f61deb85a121) (DefaultImporter) -> (Import Result ID: 'd053224935e4138914da522035995d95') in 0.0006357 seconds [static dependencies only]. Details - ImportResultOutputID=bf20dfe1c6a8f8dcbd0a6505c55d2b47 DependenciesID=975c812daeea696a0c75d2579921c9ce StaticDependenciesID=19d15d36b0edbd01c9c6636d8d7eabd2 
+Asset Pipeline Refresh (id=d563360102d229e449a5b6477dc8ca8f): Total: 0.013 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 1220.
+Memory consumption went from 94.9 MB to 94.9 MB.
+Total: 4.573100 ms (FindLiveObjects: 0.041800 ms CreateObjectMapping: 0.011700 ms MarkObjects: 4.507800 ms  DeleteObjects: 0.011300 ms)
+
+Start importing Assets/Scenes/GameScene.unity using Guid(8a4d47a048c2e6c4ba68eeef1e8d1b62) (DefaultImporter) -> (Import Result ID: '0b86fa7b1a65f3e853cba5932f4b59de') in 0.0006988 seconds [static dependencies only]. Details - ImportResultOutputID=f98d4b846e0eed220711c087970e6da4 DependenciesID=0e039d9409f60384fdf4f779fce0ba13 StaticDependenciesID=8ad7c1b05c18b0f7f66ae8b7fe10b572 
+Asset Pipeline Refresh (id=cb638b26b00100b4faf9cc798f1c073c): Total: 0.013 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/Scenes/GameScene.unity using Guid(8a4d47a048c2e6c4ba68eeef1e8d1b62) (DefaultImporter) -> (Import Result ID: 'e506ec427e1beaec328f64e513106d75') in 0.0006909 seconds [static dependencies only]. Details - ImportResultOutputID=f98d4b846e0eed220711c087970e6da4 DependenciesID=665e2ead628ca65cca51326046ac1d38 StaticDependenciesID=f0c57b7a18c71fb797e5370e2193e70f 
+Asset Pipeline Refresh (id=a57ab165942eb8044828496419b6beaf): Total: 0.012 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+✅ 政治亂鬥場景設定完成！
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+SceneSetup:SetupAllScenes () (at Assets/Editor/SceneSetup.cs:22)
+
+(Filename: Assets/Editor/SceneSetup.cs Line: 22)
+
+Batchmode quit successfully invoked - shutting down!
+Curl error 42: Callback aborted
+Start importing ProjectSettings/EditorBuildSettings.asset using Guid(0000000000000000b000000000000000) (LibraryAssetImporter) -> (Import Result ID: '09d1a55a0b2987c407b28d2e961c12f1') in 0.0016258 seconds [static dependencies only]. Details - ImportResultOutputID=d777934f36c664454d62eda103573334 DependenciesID=e70a96c67c859acda75b630965a69596 StaticDependenciesID=25f1ff3a5f9808b81a24e4f963db8357 
+Asset Pipeline Refresh (id=cbb798adcad86a94ab958cb3cf2227c7): Total: 0.009 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-user-6000.4.7-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-user-6000.4.7 channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0
