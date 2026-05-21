@@ -10,6 +10,7 @@ on:
 env:
   UNITY_PROJECT_PATH: .
   BUILD_ARTIFACT_PATH: Builds
+  UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
 
 jobs:
   build:
@@ -36,12 +37,6 @@ jobs:
           restore-keys: |
             Library-${{ matrix.targetPlatform }}-
             Library-
-
-      - name: Activate Unity license
-        uses: game-ci/unity-license-activate@v1
-        with:
-          unityVersion: 6000.4.7f1
-          activationRequest: ${{ secrets.UNITY_LICENSE }}
 
       - name: Build project
         uses: game-ci/unity-builder@v4
